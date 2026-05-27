@@ -1,6 +1,6 @@
 # Goods（后勤物资保障仿真示例）
 
-本目录是 **Mgsim_t** 的一个示例应用：用 *Producer / Warehouse / Consumer* 三类实体搭建“生产—仓储—消费”的简化供应链网络。
+用 *Producer / Warehouse / Consumer* 三类实体搭建“生产—仓储—消费”的简化供应链网络。
 
 - **Consumer** 按固定步长 Tick 周期性产生“普通/紧急”订单（`T_NeedGoods`）。
 - **Warehouse / Producer** 接单后向下游发货（`T_GoodsArrive`），到货时间由距离与车辆速度决定。
