@@ -1,8 +1,7 @@
-# Causal Gym
 
-Causal Gym is a binary-first release package for high-throughput causal simulation tasks exposed through Gymnasium environments. It publishes the usable Python interface, runnable examples, and native shared libraries while keeping the internal runtime source private.
 
-This staging directory is intended to be the public repository root.
+# CausalFlow
+Breaking the Synchronization Barrier in Simulation-Accelerated Reinforcement Learning via Dependency-Aware Scheduling
 
 ## Included
 
