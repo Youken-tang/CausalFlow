@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include causal_gym/*.cfg
+include causal_gym/*.so
+recursive-include causal_gym/libs *.so *.so.*
+recursive-include examples *.py
+recursive-include docs *.md

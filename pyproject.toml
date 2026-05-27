@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "causal-gym"
+version = "0.1.0"
+description = "Gymnasium environments backed by the Causal native simulation runtime."
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "gymnasium>=0.29",
+    "numpy>=1.24",
+]
+
+[project.urls]
+Homepage = "https://example.com/causal-gym"
+Issues = "https://example.com/causal-gym/issues"
+
+[tool.setuptools.packages.find]
+include = ["causal_gym*"]
+
+[tool.setuptools.package-data]
+causal_gym = [
+    "*.so",
+    "*.cfg",
+    "libs/*.so",
+    "libs/*.so.*",
+]
