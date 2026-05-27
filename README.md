@@ -28,15 +28,6 @@ causal_open_source/
 └── LICENSE
 ```
 
-## Not Included
-
-The public package intentionally excludes:
-
-- Internal C++ runtime source.
-- Private build directories and object files.
-- Research papers, profiling outputs, model checkpoints, and local IDE metadata.
-- Unreviewed native examples that still depend on private headers.
-
 ## Requirements
 
 - Linux x86_64.
