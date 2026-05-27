@@ -1,6 +1,6 @@
 # phold_tang（PHOLD 消息负载基准示例）
 
-本目录是 **Mgsim_t** 的一个示例应用：实现经典 **PHOLD**（Parallel HOLD）合成负载模型，用“事件到达 →
+实现经典 **PHOLD**（Parallel HOLD）合成负载模型，用“事件到达 →
 立即转发下一事件”的方式持续产生消息流，用来压测/对比 Mgsim 的时间管理与调度在不同通信模式下的性能表现。
 
 > 代码位置：`examples/phold_tang/`
