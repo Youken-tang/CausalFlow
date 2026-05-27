@@ -1,6 +1,6 @@
 # Rumor Spreading Simulation with MGSIM
 
-基于 mgsim 框架实现的谣言传播仿真应用，实现了 SIR (Susceptible-Infected-Recovered) 模型。
+基于 causal 框架实现的谣言传播仿真应用，实现了 SIR (Susceptible-Infected-Recovered) 模型。
 
 ## 概述
 
