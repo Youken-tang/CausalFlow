@@ -1,6 +1,6 @@
 # Boids_Shm（共享内存版 Boids 群体行为示例）
 
-本目录是 **Mgsim_t** 的一个示例应用：使用经典 *Boids*（鸟群/鱼群）三规则（Separation / Alignment / Cohesion）来驱动大量个体的群集运动，并通过
+使用经典 *Boids*（鸟群/鱼群）三规则（Separation / Alignment / Cohesion）来驱动大量个体的群集运动，并通过
 **LP 共享状态（Shared Memory / Shm）** 在并行时间管理模式下交换个体状态。
 
 > 代码位置：`examples/Boids_Shm/`
