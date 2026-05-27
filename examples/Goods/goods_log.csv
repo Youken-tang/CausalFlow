@@ -1,0 +1,16 @@
+1.2000000000000002
+Producer:0,total_goods:0.0
+Producer:1,total_goods:0.0
+Warehouse First_Level:2,Cap:400.0
+Warehouse First_Level:3,Cap:400.0
+Warehouse Second_Level:4,Cap:200.0
+Warehouse Second_Level:5,Cap:200.0
+Warehouse Second_Level:6,Cap:200.0
+Warehouse Second_Level:7,Cap:200.0
+Consumer:8,total_goods:0.0
+Consumer:9,total_goods:0.0
+Consumer:10,total_goods:0.0
+Consumer:11,total_goods:0.0
+Consumer:12,total_goods:0.0
+Consumer:13,total_goods:0.0
+
