@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterestManagement DSversion="2018.01" name="FOM.xml" type="FOM" version="1.0" date="2026-01-12">
+    <!-- Minimal FOM for Python examples. -->
+    <RouteSpace name="BirdTrace">
+    </RouteSpace>
+</InterestManagement>
+
