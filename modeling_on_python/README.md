@@ -1,6 +1,6 @@
 # Causal Python Runtime
 
-这是 Causal 的公开发布目录。该目录面向开源分发，只包含已经封装好的可运行动态库、Python 示例和 pybind 暴露的 API 文档，不包含核心 C++ 源码、头文件或 pybind C++ 绑定源码。
+这是一个使用python3.14t构建的，可在python层建模场景的特殊版本，利用noGIL来真正利用多线程并行。
 
 ## 发布内容
 
@@ -77,8 +77,3 @@ pybind 封装后的公开可调用 API 见 [docs/api_reference.md](docs/api_refe
 - `Range` / `Region`
 - `Status`、`RunCtrlType`、`EpType`
 
-## 发布前检查
-
-1. 确认 `causal_open_source/` 中不存在核心源码目录，例如 `src/`、`include/` 或 pybind C++ 源码。
-2. 确认 `README.md`、`docs/`、`examples/` 中公开名称均为 Causal/causal。
-3. 确认第三方动态库的再分发许可证已经随最终仓库补齐。
